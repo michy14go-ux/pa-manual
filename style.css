@@ -1,2 +1,21 @@
 
 body{margin:0;font-family:sans-serif;background:#f4f4f4}header{background:#222;color:#fff;padding:1rem}.layout{display:flex}aside{width:240px;background:#333;color:#fff;min-height:100vh;padding:1rem}aside ul{list-style:none;padding:0}aside li{padding:.5rem 0}main{flex:1;padding:2rem;background:#fff}@media(max-width:768px){.layout{flex-direction:column}aside{width:auto;min-height:auto}}
+.folder{
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding-left:15px;
+}
+
+.sidebar li{
+    cursor:pointer;
+    padding:6px;
+}
+
+.sidebar li:hover{
+    background:#444;
+    border-radius:5px;
+}
