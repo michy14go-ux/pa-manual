@@ -1,1 +1,70 @@
-
+{
+  "menu": [
+    {
+      "title": "ホーム",
+      "page": "home"
+    },
+    {
+      "title": "作業手順",
+      "children": [
+        {
+          "title": "搬入",
+          "page": "carry"
+        },
+        {
+          "title": "機材準備",
+          "page": "setup"
+        },
+        {
+          "title": "配線",
+          "page": "cable"
+        },
+        {
+          "title": "電源投入",
+          "page": "power"
+        },
+        {
+          "title": "リハーサル",
+          "page": "rehearsal"
+        },
+        {
+          "title": "本番",
+          "page": "live"
+        },
+        {
+          "title": "撤収",
+          "page": "cleanup"
+        }
+      ]
+    },
+    {
+      "title": "機材マニュアル",
+      "children": [
+        {
+          "title": "QU-32",
+          "page": "qu32"
+        },
+        {
+          "title": "マイク",
+          "page": "mic"
+        },
+        {
+          "title": "ケーブル",
+          "page": "cable_list"
+        },
+        {
+          "title": "DI",
+          "page": "di"
+        }
+      ]
+    },
+    {
+      "title": "トラブル対応",
+      "page": "trouble"
+    },
+    {
+      "title": "用語集",
+      "page": "dictionary"
+    }
+  ]
+}
