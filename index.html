@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA作業マニュアル</title>
 
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <button id="menuButton">☰</button>
+
+    <h1>PA作業マニュアル</h1>
+
+    <div class="header-right">
+
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="検索">
+
+        <button id="themeButton">
+            🌙
+        </button>
+
+    </div>
+
+</header>
+
+
+<div class="container">
+
+    <aside class="sidebar" id="sidebar">
+
+        <nav>
+
+            <ul>
+
+                <li class="menu-title">ホーム</li>
+
+                <li class="menu-folder">
+                    <span>▼ 準備</span>
+
+                    <ul>
+                        <li data-page="equipment">機材チェック</li>
+                        <li data-page="cable">配線</li>
+                        <li data-page="power">電源投入</li>
+                    </ul>
+
+                </li>
+
+                <li class="menu-folder">
+
+                    <span>▼ リハーサル</span>
+
+                    <ul>
+                        <li data-page="soundcheck">音出し</li>
+                        <li data-page="eq">EQ</li>
+                        <li data-page="monitor">モニター</li>
+                    </ul>
+
+                </li>
+
+                <li data-page="live">
+                    本番
+                </li>
+
+                <li data-page="cleanup">
+                    撤収
+                </li>
+
+                <li data-page="trouble">
+                    トラブル
+                </li>
+
+                <li data-page="gear">
+                    機材一覧
+                </li>
+
+                <li data-page="settings">
+                    設定
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="breadcrumb">
+
+            ホーム
+
+        </div>
+
+        <article id="pageContent">
+
+            <h2>PA作業マニュアルへようこそ</h2>
+
+            <p>
+
+                左のメニューから項目を選択してください。
+
+            </p>
+
+            <section class="card">
+
+                <h3>概要</h3>
+
+                <p>
+
+                    このページは部内用のPAマニュアルです。
+
+                </p>
+
+            </section>
+
+            <section class="card">
+
+                <h3>チェックリスト</h3>
+
+                <label>
+                    <input type="checkbox">
+                    機材を準備した
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="checkbox">
+                    ケーブルを確認した
+                </label>
+
+            </section>
+
+            <section class="card">
+
+                <h3>写真</h3>
+
+                <div class="image-placeholder">
+
+                    写真を追加予定
+
+                </div>
+
+            </section>
+
+            <section class="card">
+
+                <h3>動画</h3>
+
+                <div class="video-placeholder">
+
+                    動画を追加予定
+
+                </div>
+
+            </section>
+
+            <section class="card">
+
+                <h3>メモ</h3>
+
+                <textarea
+                    rows="8"
+                    placeholder="自由にメモを書けます"></textarea>
+
+            </section>
+
+        </article>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
