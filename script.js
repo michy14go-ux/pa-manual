@@ -72,14 +72,25 @@ function createMenu(items, parent) {
 
 }
 
-async function loadPage(page){
+async function loadPage(page) {
 
     const response = await fetch("pages/" + page + ".html");
+
+    if (!response.ok) {
+        pageContent.innerHTML = `
+            <h1>ページを表示できません</h1>
+            <p>pages/${page}.html が存在するか確認してください。</p>
+        `;
+        return;
+    }
 
     const html = await response.text();
 
     pageContent.innerHTML = html;
 
+    if (window.innerWidth <= 900) {
+        sidebar.classList.remove("open");
+    }
 }
 
 loadMenu();
