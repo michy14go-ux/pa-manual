@@ -11,6 +11,10 @@
           "title": "搬入",
           "page": "carry"
         },
+    　　{
+      　　"title": "引き回し",
+      　　"page": "rooting"
+    　　},
         {
           "title": "機材準備",
           "page": "setup"
