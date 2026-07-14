@@ -414,12 +414,7 @@ body.dark .breadcrumb{
         gap: 8px;
     }
 
-    .topbar h1 {
-        font-size: 18px;
-        line-height: 1.3;
-        white-space: nowrap;
-        flex-shrink: 0;
-    }
+    
 
     #menuButton {
         width: 48px;
@@ -433,11 +428,12 @@ body.dark .breadcrumb{
         min-width: 0;
     }
 
-    #searchBox {
-        width: 110px;
-        min-width: 0;
-        padding: 10px;
-        font-size: 14px;
+     #searchBox {
+        display: none;
+    }
+
+    .topbar h1 {
+        font-size: 16px;
     }
 
     #themeButton {
