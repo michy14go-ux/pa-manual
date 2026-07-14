@@ -32,20 +32,38 @@ function createMenu(items, parent) {
 
         }
 
-        if(item.children){
+        if (item.children) {
 
-            const title = document.createElement("div");
+    const title = document.createElement("div");
+    title.className = "folder";
+    title.textContent = "▶ " + item.title;
 
+    const childContainer = document.createElement("div");
+    childContainer.style.display = "none";
+
+    title.onclick = () => {
+
+        if (childContainer.style.display === "none") {
+
+            childContainer.style.display = "block";
             title.textContent = "▼ " + item.title;
 
-            title.className = "folder";
+        } else {
 
-            li.appendChild(title);
-
-            createMenu(item.children, li);
+            childContainer.style.display = "none";
+            title.textContent = "▶ " + item.title;
 
         }
 
+    };
+
+    li.appendChild(title);
+
+    createMenu(item.children, childContainer);
+
+    li.appendChild(childContainer);
+
+}
         ul.appendChild(li);
 
     });
