@@ -404,3 +404,58 @@ body.dark .breadcrumb{
 }
 
 }
+/* スマホ表示 */
+@media (max-width: 768px) {
+
+    .topbar {
+        height: auto;
+        min-height: 64px;
+        padding: 8px 10px;
+        gap: 8px;
+    }
+
+    .topbar h1 {
+        font-size: 18px;
+        line-height: 1.3;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    #menuButton {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+
+    .header-right {
+        margin-left: auto;
+        gap: 6px;
+        min-width: 0;
+    }
+
+    #searchBox {
+        width: 110px;
+        min-width: 0;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #themeButton {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+
+    .content {
+        padding: 18px 14px;
+    }
+
+    #pageContent {
+        padding: 30px 24px;
+        min-height: calc(100vh - 190px);
+    }
+
+    #pageContent h1 {
+        font-size: 32px;
+    }
+}
