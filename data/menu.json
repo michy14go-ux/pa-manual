@@ -28,6 +28,10 @@
           "page": "power"
         },
         {
+          "title": "スピーカーの音量決め"
+          "page": "volume"
+        },
+        {
           "title": "リハーサル",
           "page": "rehearsal"
         },
