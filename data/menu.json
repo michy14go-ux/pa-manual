@@ -24,8 +24,8 @@
           "page": "cable"
         },
         {
-          "title": "電源投入",
-          "page": "power"
+          "title": "入出",
+          "page": "inputoutput"
         },
         {
           "title": "スピーカーの音量決め",
