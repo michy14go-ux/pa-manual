@@ -85,3 +85,9 @@ async function loadPage(page){
 loadMenu();
 
 loadPage("home");
+const menuButton = document.getElementById("menuButton");
+const sidebar = document.getElementById("sidebar");
+
+menuButton.addEventListener("click", () => {
+    sidebar.classList.toggle("open");
+});
