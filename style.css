@@ -454,4 +454,8 @@ body.dark .breadcrumb{
     #pageContent h1 {
         font-size: 32px;
     }
+   .manual-image{
+    max-width: 100%;
+    height: auto;
+    }
 }
