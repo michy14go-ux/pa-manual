@@ -414,8 +414,6 @@ body.dark .breadcrumb{
         gap: 8px;
     }
 
-    
-
     #menuButton {
         width: 48px;
         height: 48px;
@@ -428,7 +426,7 @@ body.dark .breadcrumb{
         min-width: 0;
     }
 
-     #searchBox {
+    #searchBox {
         display: none;
     }
 
@@ -454,15 +452,19 @@ body.dark .breadcrumb{
     #pageContent h1 {
         font-size: 32px;
     }
-   .manual-image{
+}
+
+/* 画像共通 */
+.manual-image{
     max-width: 100%;
     height: auto;
-    }
-   @media (min-width: 901px){
+}
+
+/* PCだけ */
+@media (min-width: 901px){
 
     .manual-image{
         width: 60%;
     }
 
-    }
 }
