@@ -50,6 +50,10 @@
         {
           "title": "ばらし",
           "page": "cleanup"
+        },
+        {
+          "title": "搬出",
+          "page": "removal"
         }
       ]
     },
